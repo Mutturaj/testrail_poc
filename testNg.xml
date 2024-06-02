@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="StockBroking_TestRail">
+
+    <parameter name="MileStoneName" value=""/>
+    <parameter name="executionType" value="Local"/>
+    <test name="Create MileStone">
+        <classes>
+            <class name="TestPlan_Creation">
+            </class>
+        </classes>
+    </test>
+    </suite>
